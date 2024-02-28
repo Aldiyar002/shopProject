@@ -1,5 +1,5 @@
 import Footer from "../footer/footer";
-import Regis from "../regis/regis";rgba(217, 217, 217, 1)
+import Regis from "../regis/regis";
 
 const Layout = ({children}) => {
   return (
