@@ -4,13 +4,24 @@ const Regis = () => {
   return (
     <>
     <div className="regis">
+        <div className="container">
         <h1>Регистрация</h1>
-        <input placeholder="Имя" className="input"></input>
-        <input placeholder="Фамилия" className="input"></input>
-        <input placeholder="Номер телефона" className="input"></input>
-        <input placeholder="Почта" className="input"></input>
-        <input placeholder="Пароль" className="input"></input>
-        <input placeholder="Повторите пароль" className="input"></input>
+        <div>
+        <input placeholder="Имя" className="regis_input"></input>
+        <br></br>
+        <input placeholder="Фамилия" className="regis_input"></input>
+        <br></br>
+        <input placeholder="Номер телефона" className="regis_input"></input>
+        <br></br>
+        <input placeholder="Почта" className="regis_input"></input>
+        <br></br>
+        <input placeholder="Пароль" className="regis_input"></input>
+        <br></br>
+        <input placeholder="Повторите пароль" className="regis_input"></input>
+        </div>
+        <br></br>
+        <button className="regis_btn">Зарегистрироваться</button>
+        </div>
     </div>
     </>
   )
