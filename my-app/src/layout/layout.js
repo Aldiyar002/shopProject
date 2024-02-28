@@ -5,7 +5,6 @@ const Layout = ({children}) => {
   return (
     <>
     <Footer/>
-    <Regis/>
     <main>{children}</main>
     </>
   )
